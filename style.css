@@ -75,6 +75,8 @@ body{
   font-size:40px;
   font-weight: 700;
   margin-top: 80px;
+  margin-bottom: 24px;
+  color: rgb(14, 14, 14);
   
 }
 
@@ -155,3 +157,128 @@ body{
   margin: 10px;
 }
 
+/* Recent News style */
+
+.news-fast-box{
+  
+  background-color:rgb(255, 255, 255);
+  border-radius: 24px;
+  gap: 32px;
+  padding: 48px;
+  margin-top: 24px;
+
+}
+.boxx{
+  
+  display: flex;
+}
+.box-img{
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+.fast-box{
+  margin-left: 32px;
+
+}
+.box-title{
+  font-size: 32px;
+  margin: 0px;
+  color:rgba(14, 14, 14, 0.8)
+}
+.title-img{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.fast-box-des{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.box-btn{
+  background-color: #006A50;
+  font-weight: 700;
+  color:#ffffff;
+  padding:13px 26px;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-top: 25px;
+  border: none;
+}
+time{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  text-align: left;
+  margin-right: 12px;
+}
+.boxx2{
+  display: flex;
+}
+.fast-boxx{
+  margin-right: 32px;
+}
+
+/* Donate Today Styles */
+.doate-top{
+  text-align: center;
+}
+.donate-title{
+  font-size:40px;
+  font-weight: 700;
+  margin-top: 80px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: rgb(14, 14, 14);
+}
+.donate-des{
+  font-size:16px;
+  font-weight: 400;
+  color:rgba(14, 14, 14, 0.7) ;
+  line-height: px;
+  margin-left: 82px;
+  margin-right: 82px;
+}
+
+.donate-boxs{
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  gap:24px;
+}
+
+.donate-box{
+  font-size: 40px;
+  padding: 40px;
+  color:rgba(14, 14, 14, 0.8);
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background-color: white;
+}
+
+.donate-box-dip{
+  font-size: 40px;
+  padding:40px;
+  border-radius: 16px;
+  color:rgba(14, 14, 14, 0.8);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background-color: rgb(198, 228, 214); 
+}
+.input-box{
+  padding:20px 40px 20px 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width:900px;
+  border-radius: 5px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.input-box-main{
+ 
+}
+.input{
+  justify-self: center;
+ text-align: center;
+}
